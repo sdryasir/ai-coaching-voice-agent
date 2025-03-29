@@ -5,7 +5,9 @@ function Dashboardlayout({ children }) {
   return (
     <div>
       <Appheader />
-      {children}
+      <div className="p-10 mt-20 md:p-20 lg:p-32 xl:p-48 2xl:p-64">
+        {children}
+      </div>
     </div>
   );
 }
